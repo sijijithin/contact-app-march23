@@ -1,0 +1,44 @@
+
+<div class="container mt-1">
+    <div class="row">
+        <div class="col">
+            <h1 style="color:rgb(41, 80, 28)">
+                <!-- tittle -->
+          View Contact Page
+            </h1>
+            <!-- content -->
+            <p class="mt-3 fs-5 " style="text-align:justify">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Recusandae cumque at earum tenetur dicta saepe
+                dignissimos ut ipsa ducimus quod hic repellendus, omnis id nisi. Illum consequuntur dolore animi
+                exercitationem.lorem Lorem, ipsum dolor sit amet consectetur adipisicing elit. Recusandae cumque at
+                earum tenetur dicta saepe
+                dignissimos ut ipsa ducimus quod hic repellendus, omnis id nisi. Illum consequuntur dolore animi
+                exercitationem.lorem Lorem, ipsum dolor sit amet consectetur adipisicing elit. Recusandae cumque at
+                earum tenetur dicta saepe
+                dignissimos ut ipsa ducimus quod hic repellendus, omnis id nisi. Illum consequuntur dolore animi
+                exercitationem.lorem </p>
+
+
+        </div>
+    
+    </div>
+
+    <!-- row bootstrap--> 
+    <div class="row mt-5 justify-content-center">
+        <div class="card p-2 d-flex justify-content-center align-items-center" style="width: 30rem;">
+            <img class="contact_img mt-2"
+            [src]="contact.photo"
+            alt="contact">
+            <div class="card-body text-center">
+              <h5 class="card-title fw-bolder text-danger ">{{contact.name}}</h5>
+              <p class="card-text text-primary">Mobile :{{contact.mobile}}</p>
+              <p class="card-text text-success">E-Mail:{{contact.email}}</p>
+              <p class="card-text text-warning">Company:{{contact.company}}</p>
+              <p class="card-text text-info">Title:{{contact.title}}</p>
+              <p class="card-text text-danger">Group:{{groupName}}</p>
+
+            </div>
+          </div>
+    </div>
+
+</div>
